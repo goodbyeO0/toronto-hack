@@ -5,12 +5,12 @@ import "./index.css";
 import { DAppProvider } from "@usedapp/core";
 import { getDefaultProvider } from "ethers";
 
-const SEPOLIA_SCROLL_CHAIN_ID = 534351;
+const SHIBARIUM_CHAIN_ID = 157;
 
 const config = {
-  readOnlyChainId: SEPOLIA_SCROLL_CHAIN_ID,
+  readOnlyChainId: SHIBARIUM_CHAIN_ID,
   readOnlyUrls: {
-    [SEPOLIA_SCROLL_CHAIN_ID]: getDefaultProvider("sepolia"),
+    [SHIBARIUM_CHAIN_ID]: "https://puppynet.shibrpc.com",
   },
 };
 

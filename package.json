@@ -12,7 +12,10 @@
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.2",
     "@usedapp/core": "^1.2.16",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "ethers": "^5.7.2",
+    "express": "^4.19.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0"

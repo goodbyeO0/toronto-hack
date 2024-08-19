@@ -9,12 +9,12 @@ function RealTimeProductScanner() {
   const [publicKey, setPublicKey] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  const contractAddress = "0x12D7a9f11070ecAd0a39238887AF880703eB0919"; // Replace with your contract address
+  const contractAddress = "0x7d1E59d09729ab9E90330718f53212b8F184d5fB"; // Replace with your contract address
 
   const fetchScannedProducts = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch("http://localhost:3001/getNFT");
+      const response = await fetch("http://localhost:3000/prodId");
       const data = await response.json();
       console.log("Fetched product data:", data);
 
@@ -44,7 +44,7 @@ function RealTimeProductScanner() {
 
   const fetchPublicKey = async () => {
     try {
-      const response = await fetch("http://localhost:3001/getWalletAddress");
+      const response = await fetch("http://localhost:3000/publicKey");
       const data = await response.json();
       console.log("Fetched public key:", data);
       setPublicKey(data.publicKey);

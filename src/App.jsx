@@ -3,7 +3,7 @@ import Contoh from "./Pages/Contoh";
 import Navbar from "./components/Navbar";
 import AddItem from "./Pages/AddItem";
 import ViewItems from "./Pages/ViewItems";
-import RequestApi from "./Pages/RequestApi";
+import RequestApi from "./Pages/devRequestApi";
 import RealTimeProductScanner from "./Pages/AssociateItem";
 import PurchaseItems from "./Pages/PurchaseItems";
 import WithdrawFunds from "./Pages/Withdraw";

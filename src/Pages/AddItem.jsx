@@ -18,7 +18,7 @@ function AddItem() {
 
   const healthItemPurchaseAbi = healthItemPurchase.abi;
   const healthItemPurchaseAddress =
-    "0x12D7a9f11070ecAd0a39238887AF880703eB0919"; // Replace with your deployed contract address
+    "0x7d1E59d09729ab9E90330718f53212b8F184d5fB"; // Replace with your deployed contract address
 
   const handleAddItem = async (event) => {
     event.preventDefault();

@@ -8,7 +8,7 @@ function WithdrawFunds() {
   const [isLoading, setIsLoading] = useState(false);
   const [txHash, setTxHash] = useState("");
 
-  const contractAddress = "0x12D7a9f11070ecAd0a39238887AF880703eB0919"; // Replace with your contract address
+  const contractAddress = "0x7d1E59d09729ab9E90330718f53212b8F184d5fB"; // Replace with your contract address
 
   const handleWithdraw = async () => {
     if (!account || !library) return;
@@ -56,7 +56,7 @@ function WithdrawFunds() {
           <div className="mt-4">
             <p>Transaction Hash:</p>
             <a
-              href={`https://etherscan.io/tx/${txHash}`}
+              href={`https://puppyscan.shib.io/tx/${txHash}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500"
